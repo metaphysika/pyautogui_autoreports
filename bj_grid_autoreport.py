@@ -32,7 +32,7 @@ pyautogui.PAUSE = 10
 # open myreports and click Bemidji Grid Report.
 pyautogui.click(124, 33)
 # Wait 20 minutes for report to generate before trying to export.
-pyautogui.PAUSE = 120
+pyautogui.PAUSE = 1200
 # Change this click location for other reports.
 pyautogui.click(1246, 154)
 
@@ -48,7 +48,7 @@ pyautogui.PAUSE = 2
 pyautogui.click(205, 108)
 pyautogui.click(280, 226)
 # Pause to let big reports load here.
-pyautogui.PAUSE = 30
+pyautogui.PAUSE = 300
 # Click load all dialogue box to load big reports
 pyautogui.click(1023, 571)
 

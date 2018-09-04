@@ -31,8 +31,8 @@ pyautogui.PAUSE = 10
 
 # open myreports and click TRF Grid Report.
 pyautogui.click(124, 33)
-# Wait 5 minutes for report to generate before trying to export.
-pyautogui.PAUSE = 300
+# Wait 20 minutes for report to generate before trying to export.
+pyautogui.PAUSE = 1200
 # Change this click location for other reports.
 pyautogui.click(854, 154)
 

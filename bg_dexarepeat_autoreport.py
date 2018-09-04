@@ -31,7 +31,7 @@ pyautogui.PAUSE = 10
 
 # open myreports and click BGY DEXA Repeat Report.
 pyautogui.click(124, 33)
-# Wait 2 minutes for report to generate before trying to export.
+# Wait 5 minutes for report to generate before trying to export.
 pyautogui.PAUSE = 300
 # Change this click location for other reports.
 pyautogui.click(1220, 191)
